@@ -1,0 +1,21 @@
+{
+  "name": "@gdurgaprasad/shared-dependency",
+  "version": "1.0.1",
+  "description": "Shared interfaces and enums, etc. for Angular and NestJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "@gdurgaprasad:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdurgaprasad/shared-dependency.git"
+  }
+}
