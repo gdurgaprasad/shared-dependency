@@ -13,7 +13,9 @@ export enum SETTINGS_TABS {
 
 export enum MESSAGES {
     SAVE_LOGIN_FORM_FIELDS_FAILED = 'Failed to save login form fields.',
+    SAVE_LOGIN_FORM_FIELDS_SUCCESS = 'Login form fields saved successfully.',
     FETCH_LOGIN_FORM_FIELDS_FAILED = 'Failed to fetch login form fields.',
+    FETCH_LOGIN_FORM_FIELDS_SUCCESS = 'Login form fields fetched successfully.',
     SAVE_OR_FETCH_USER_FAILED = 'Failed to save or fetch user.',
 
     SAVE_TAG_FORM_FIELDS_SUCCESS = 'Tag form fields saved successfully.',
