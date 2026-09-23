@@ -27,6 +27,7 @@ export enum MESSAGES {
     DELETE_USER_TAG_SUCCESS = "User tag deleted successfully.",
     SAVE_USER_TAG_FAILED = "Failed to save user tag.",
     SAVE_USER_TAG_SUCCESS = "User tag saved successfully.",
+    USER_TAG_ALREADY_EXISTS = "User tag already exists.",
     LOGIN_SUCCESS = "Login successful.",
     LOGIN_FAILED = "Login failed",
     LOGOUT_SUCCESS = "Logout successful.",
