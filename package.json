@@ -1,6 +1,6 @@
 {
   "name": "@gdurgaprasad/shared-dependency",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared interfaces and enums, etc. for Angular and NestJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
