@@ -5,7 +5,7 @@ export interface SaveTagRequest {
 }
 
 export interface Tag extends SaveTagRequest {
-    id?: string
+    id: number
     created_at?: string,
-    user: string
+    user: number
 }
