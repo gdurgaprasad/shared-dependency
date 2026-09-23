@@ -1,15 +1,15 @@
-export declare enum ROUTES {
+export enum ROUTES {
     PUBLIC = "/public",
     LOGIN = "/login",
     REMINDER = "/reminder",
     SETTINGS = "/settings",
     DASHBOARD = "/dashboard"
 }
-export declare enum SETTINGS_TABS {
+export enum SETTINGS_TABS {
     PROFILE = "Profile",
     TAGS = "Tags"
 }
-export declare enum MESSAGES {
+export enum MESSAGES {
     SAVE_LOGIN_FORM_FIELDS_FAILED = "Failed to save login form fields.",
     SAVE_LOGIN_FORM_FIELDS_SUCCESS = "Login form fields saved successfully.",
     FETCH_LOGIN_FORM_FIELDS_FAILED = "Failed to fetch login form fields.",
@@ -34,7 +34,7 @@ export declare enum MESSAGES {
     TAG_SAVE_SUCCESS = "Tag saved successfully.",
     TAG_SAVE_FAILED = "Failed to save tag"
 }
-export declare enum TOAST_TYPES {
+export enum TOAST_TYPES {
     SUCCESS = "success",
     DANGER = "danger",
     WARNING = "warning",
